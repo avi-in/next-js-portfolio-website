@@ -48,8 +48,7 @@ const HeroContent = () => {
           <span>
             Exploring uncharted
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              realms of
+              {" "}realms of
             </span>{" "}
             creativity
           </span>
@@ -61,7 +60,7 @@ const HeroContent = () => {
           className="text-lg text-gray-400  my-5 max-w-[600px] "
         >
           I&apos;m a dynamic Full Stack Web Developer with a flair for creating
-          interactive and visually stunning web applications. Curious for
+          interactive & visually stunning web applications. Curious for
           more?&nbsp;
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 ">
             Embark on a journey through my digital portfolio and uncover the
