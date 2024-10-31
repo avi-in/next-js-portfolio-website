@@ -249,11 +249,11 @@ export const testimonials = [
 
 export const resumeFilePath='/Vikash_kumar_Mishra_Resume.pdf';
 export const jsonObject = {
-  name: "Vikash Kumar Mishra",
-  profile:["Java Full Stack Developer","Web Developer"],
-  experienace:"3.5 yrs",
+  name:"Vikash Kumar Mishra",
+  profile: ["Java FSD","Backend Developer","Web Developer"],
+  experienace:"3.9 yrs",
   company:"TCS",
-  hobbies: ["reading", "traveling", "coding","cooking"]
+  hobbies: ["Reading", "Traveling", "Coding"]
 };
 
 
