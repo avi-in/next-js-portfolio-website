@@ -123,6 +123,13 @@ pre.line-numbers > code {
   transform-origin: 50% 50%;
 }
 
+/* prism-custom.css */
+code[class*="language-"],
+pre[class*="language-"] {
+    @apply text-[13px] !important; /* Use Tailwind's arbitrary value for font size */
+    @apply sm:text-[16px] !important;
+}
+
 
 
 
