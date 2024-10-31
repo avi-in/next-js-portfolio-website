@@ -29,9 +29,9 @@ const HeroContent = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Hi there!",
-                    "Welcome to my digital playground!",
-                    "Explore and enjoy your visit!",
+                    "Hi There!  \u{1F44B}",
+                    "Welcome 2 my coding realm!",
+                    "Explore & enjoy your visit!",
                   ],
                   autoStart: true,
                   loop: true,
