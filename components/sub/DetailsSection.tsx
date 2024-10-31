@@ -26,7 +26,7 @@ const DetailsSection = ({...data}) => {
   const jsonString = JSON.stringify(data, null, 2);
 
   return (
-    <pre className="line-numbers border-[purple] bg-transparent text-white p-4 rounded-xl border-x-2 border-y overflow-auto">
+    <pre className="text-[12px] line-numbers border-[purple] bg-transparent text-white p-4 rounded-xl border-x-2 border-y overflow-auto">
       <code className="language-json">{jsonString}</code>
     </pre>
   );

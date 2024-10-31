@@ -47,7 +47,7 @@ const HeroContent = () => {
         >
           <span>
             Exploring uncharted
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent text-[42px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}realms of
             </span>{" "}
             creativity
