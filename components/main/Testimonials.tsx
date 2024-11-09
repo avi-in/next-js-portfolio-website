@@ -10,7 +10,7 @@ const Testimonials = () => {
       role: 'Web Developer',
       quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc.',
     },
-    // Add more testimonials as needed
+    // Add more testimonials
   ];
 
   return (

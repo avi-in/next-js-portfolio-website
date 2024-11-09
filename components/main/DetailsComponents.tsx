@@ -6,20 +6,6 @@ import { motion } from 'framer-motion';
 import { slideInFromLeft, slideInFromTop } from '@/utils/motion';
 
 const DetailsComponents = () => {
-  const myObject = {
-    name: "John Doe",
-    age: 30,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "CA",
-      zip: "12345"
-    },
-    hobbies: ["reading", "traveling", "coding"]
-  };
-
-  {/*py-20 */}
-
   return (
     <motion.div
     initial="hidden"

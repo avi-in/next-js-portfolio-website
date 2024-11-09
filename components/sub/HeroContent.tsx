@@ -82,7 +82,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center md:block"
       >
         <Image
-          src="/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon.png"
+          src="/laptop.png"  
           alt="work icons"
           height={650}
           width={650}

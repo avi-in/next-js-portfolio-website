@@ -97,7 +97,7 @@ pre.line-numbers > code {
   top: 0;
   font-size: 100%;
   left: 0;
-  width: 3em; /* Adjust according to your needs */
+  width: 3em;
   letter-spacing: -1px;
   border-right: 1px solid #a30606;
   user-select: none;
@@ -126,8 +126,12 @@ pre.line-numbers > code {
 /* prism-custom.css */
 code[class*="language-"],
 pre[class*="language-"] {
-    @apply text-[13px] !important; /* Use Tailwind's arbitrary value for font size */
+    @apply text-[13px] !important;
     @apply sm:text-[16px] !important;
+}
+
+.carousel-container{
+  background-color: none !important;
 }
 
 
