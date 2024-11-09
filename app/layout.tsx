@@ -8,8 +8,16 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AVI PORTFOLIO",
-  description: "MY PORTFOLIO APP",
+  title: "avi-portfolio",
+  description: "Vikash Mishar's portfolio website",
+  icons: {
+    icon: [
+      {
+        url: '/logo.ico',
+        href: '/logo.ico',
+      }
+    ],
+  },
 };
 
 export default function RootLayout({

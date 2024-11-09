@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        'neon': '0 0 10px #2A0E61, 0 0 20px #2A0E61, 0 0 30px #2A0E61, 0 0 40px #2A0E61',
+        'neon': '',//'0 0 10px #2A0E61, 0 0 20px #2A0E61, 0 0 30px #2A0E61, 0 0 40px #2A0E61',
         'neon-hover': '0 0 20px #2A0E61, 0 0 30px #2A0E61, 0 0 40px #2A0E61, 0 0 50px #2A0E61',
       },
       colors: {

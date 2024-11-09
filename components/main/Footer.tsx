@@ -16,53 +16,42 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px] text-neon-purple p-1 bg-gradient-to-r from-purple-500 to-cyan-500 shadow-neon rounded-neon">Community</div>
-                    <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
+                    <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaYoutube className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>YouTube</span>
+                        <a target='_blank' href='https://youtube.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>YouTube</a>
                     </p>
-                    {/* <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
-                        <FaDiscord className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Discord</span>
-                    </p> */}
-                    <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
+                    <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaGithub className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Github</span>
+                        <a target='_blank' href='https://github.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Github</a>
                     </p>
                 </div>
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px] text-neon-purple shadow-neon rounded-neon p-1 bg-gradient-to-r from-purple-500 to-cyan-500">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
+                    <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaInstagram className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Instagram</span>
+                        <a target='_blank' href='https://instagram.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Instagram</a>
                     </p>
-                    {/* <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
-                        <FaTwitter className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Twitter</span>
-                    </p> */}
-                    <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
+                    <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaLinkedin className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>LinkedIn</span>
+                        <a target='_blank' href='https:linkedin.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>LinkedIn</a>
                     </p>
                 </div>
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px] text-neon-purplep-1 p-1 bg-gradient-to-r from-purple-500 to-cyan-500 shadow-neon rounded-neon">Contact</div>
                     <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>thh@gmail.com</span>
+                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>vikashconnecting@gmail.com</span>
                     </p>
                     <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
                         <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Ph:06757-2456777</span>
                     </p>
-                    {/* <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Instagram</span>
-                    </p> */}
                 </div>
 
             </div>
 
             <div className=" mt-1 mb-[20px] text-[15px] text-center">
-                © AVI.in 2024. All rights reserved
+                © AVI.in {new Date().getFullYear()}. All rights reserved
             </div>
         </div>
     </div>
