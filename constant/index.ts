@@ -180,24 +180,17 @@ export const social = [
 
 export const otherSkills = [
   {
-    skillName: "Go",
-    image: "/go.png",
-    width: 125,
-    height: 125,
-    competency: 40
-  },
-  {
-    skillName: "FIGMA",
-    image: "/figma.png",
+    skillName: "Express Js",
+    image: "/express.png",
     width: 125,
     height: 125,
     competency: 50
   },
   {
-    skillName: "MONGO DB",
-    image: "/mongodb.png",
-    width: 125,
-    height: 125,
+    skillName: "Docker",
+    image: "/docker.webp",
+    width: 145,
+    height: 145,
     competency: 60
   },
   {
@@ -259,6 +252,7 @@ export const jsonObject = {
 
 export const projectDetails = [
   {
+    imageId:1,
     imageSrc: "/Next-Website-Orig.png",
     imageTitle: "Modern Sleek Next js Portfolio",
     imageDescription: " My brand-new portfolio website, built entirely with Nextjs, Tailwind CSS, Framer Motion! It's a window into Nextjs world, featuring my latest and greatest projects in the tech world.",
@@ -267,6 +261,7 @@ export const projectDetails = [
   },
 
   {
+    imageId:2,
     imageSrc: "/React-Website.png",
     imageTitle: "Reactjs Interactive Website",
     imageDescription: " My Old & first portfolio website, built with Reactjs, Tailwind CSS, React-hooks! This site highlights my journey & dedication to innovation from intuitive interfaces to seamless functionality",
@@ -274,7 +269,7 @@ export const projectDetails = [
     imageUrl:''
   },
   {
-
+    imageId:3,
     imageSrc: "/ReactWebsite.png",
     imageTitle: "Reactjs Interactive Website",
     imageDescription: " My portfolio website, built entirely with Reactjs, Tailwind CSS, React Styled Components! This site highlights my journey & dedication to innovation in the tech world, where creativity meets code.",

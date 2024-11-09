@@ -25,24 +25,6 @@ const SkillDataProvider = ({src,width,height,index,competency}:Props) => {
     console.log(strokeDashoffset+"  "+competency)
 
   return (
-    // <motion.div
-    // ref={ref}
-    // initial="hidden"
-    // variants={imageVariants}
-    // animate={inView ? "visible" : "hidden"}
-    // custom={index}
-    // transition={{delay:index*animationDelay}}
-    // className='rounded-full border-2 p-5 overflow-hidden w-fit h-fit border-[purple]'
-    // >
-    //     <Image 
-    //     src={src}
-    //     width={width+15}
-    //     height={height+15}
-    //     alt='Skill Images'
-    //     />
-
-    // </motion.div>
-
     <motion.div 
     ref={ref}
     initial="hidden"
@@ -83,10 +65,6 @@ const SkillDataProvider = ({src,width,height,index,competency}:Props) => {
           strokeDashoffset={`${strokeDashoffset}px`}// Adjust based on competency
         />
       </svg>
-      {/* Percentage value */}
-      {/* <p className="text-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-[black] font-semibold">
-        {competency}%
-      </p> */}
     </motion.div>
   );
 };
