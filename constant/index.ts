@@ -165,17 +165,20 @@ export const backendSkill = [
 
 export const social = [
   {
-    name: "Discord",
-    src: "/discord.svg"
+    name: "Linkedin",
+    src: "/linkedin.jpg",
+    targetUrl:'https:linkedin.com'
   },
   {
-    name: "Istagram",
-    src: "/instagram.svg"
+    name: "GitHub",
+    src: "/gitwhite.png",
+    targetUrl:'https:github.com'
   },
-  {
-    name: "facebook",
-    src: "/facebook.svg"
-  }
+ 
+  // {
+  //   name: "facebook",
+  //   src: "/facebook.svg"
+  // }
 ];
 
 export const otherSkills = [
@@ -243,11 +246,12 @@ export const testimonials = [
 
 export const resumeFilePath = '/Vikash_kumar_Mishra_Resume.pdf';
 export const jsonObject = {
-  name: "Vikash Kumar Mishra",
-  profile: ["Java FSD", "Backend Developer", "Web Developer"],
+  name: "Vikash Mishra",
+  jobProfile: ["Java FSD", "Backend Developer", "Web Developer"],
   experienace: "3.9 yrs",
-  company: "TCS",
-  hobbies: ["Reading", "Traveling", "Coding"]
+  education:"B.E(ECE) LNCT, Bhopal",
+  company: "TCS, Pune",
+  hobbies: ["Exploring New Things", "Traveling", "Code Composing"]
 };
 
 export const projectDetails = [
