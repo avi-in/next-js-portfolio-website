@@ -49,6 +49,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-row gap-5">
           {social.map((smedia) => (
+            <a  key= {smedia.name} target='_blank' href={smedia.targetUrl} className='no-underline'>
             <Image
               key={smedia.name}
               alt={smedia.name}
@@ -57,6 +58,7 @@ const Navbar = () => {
               height={24}
               className='cursor-pointer rounded-full bg-transparent shadow-neon-hover'
             />
+            </a>
           ))}
         </div>
       </div>

@@ -22,7 +22,7 @@ const Testimonial = () => {
       return (
         <div className="bg-black py-16" id="testimonial">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="mb-4 text-3xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">Testimonials</h2>
+            <h2 className="mb-4 text-2xl sm:text-3xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">Testimonials</h2>
             <Slider {...settings}>
               {testimonials.map((testimonial, index) => (
                 <motion.div
