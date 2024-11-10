@@ -44,7 +44,7 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>vikashconnecting@gmail.com</span>
                     </p>
                     <p className="flex flex-row items-center my-[15px] hover:text-purple-500">
-                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Ph:06757-2456777</span>
+                        <span className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Mob:+91-XXXXXXXXXX</span>
                     </p>
                 </div>
 

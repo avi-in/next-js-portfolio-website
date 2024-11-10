@@ -9,8 +9,10 @@ import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im'
 
 const SkillText = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center">
+    <div  className="w-full h-auto flex flex-col items-center justify-center">
       <motion.div
+      initial="hidden"
+      animate="visible"
       variants={slideInFromTop}
       className="Welcome-box py-[8px] px-[7px] border border[#7042f88b] opacity-[0.9]"
       >
@@ -22,13 +24,13 @@ const SkillText = () => {
       </motion.div>
       <motion.div
       variants={slideInFromLeft(0.5)}
-      className="text-[30px]  text-white font-medium mt-[10px] text-center mb-[15px]"
+      className="text-[22px] sm:text-[30px]  text-white font-medium mt-[10px] text-center mb-[15px]"
       >Mixing Apps with a Pinch of Tech Humor
       </motion.div>
 
       <motion.div
       variants={slideInFromRight(0.5)}
-      className=" text-[20px]  text-gray-200 mb-10 mt-[10px] text-center flex flex-row"
+      className=" text-[18px]  text-gray-200 mb-10 mt-[10px] text-center flex flex-row"
       >
         Web development journey is fueled by a love for continuous learning and <br/>
         a commitment to staying ahead of the curve with the latest technologies.

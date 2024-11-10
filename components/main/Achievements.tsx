@@ -23,7 +23,7 @@ const Achievements = () => {
             className="text-[40px] font-medium text-center text-gray-200"
             aria-label="Achievements & Certifications"
           >
-             <h1 className=" text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+             <h1 className="text-2xl sm:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 heading">
              Certifications & Achievements</h1> 
           </motion.div>
         </div>

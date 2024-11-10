@@ -16,7 +16,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-16 mt-32 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-10 sm:px-16 mt-32 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -29,9 +29,9 @@ const HeroContent = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Hi There!  \u{1F44B}",
-                    "Welcome 2 my coding realm!",
-                    "Explore & enjoy your visit!",
+                    "Hi There!  \u{1F44B}\u{1F44B}",
+                    "Welcome to Coding Realm!",
+                    "Explore & Enjoy your Visit!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -46,11 +46,11 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Exploring uncharted
+            Exploring Uncharted
             <span className="text-transparent text-[42px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}realms of
+              {" "}Realms of
             </span>{" "}
-            creativity
+            Creativity
           </span>
           {/*  creativity */}
         </motion.div>
@@ -79,7 +79,7 @@ const HeroContent = () => {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center md:block"
+        className="w-full h-full hidden sm:flex justify-center items-center"
       >
         <Image
           src="/laptop.png"  

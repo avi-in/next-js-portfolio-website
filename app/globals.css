@@ -126,14 +126,13 @@ pre.line-numbers > code {
 /* prism-custom.css */
 code[class*="language-"],
 pre[class*="language-"] {
-    @apply text-[13px] !important;
+    @apply text-[10px] !important;
     @apply sm:text-[16px] !important;
 }
 
 .carousel-container{
   background-color: none !important;
 }
-
 
 
 
