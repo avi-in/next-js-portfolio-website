@@ -167,12 +167,12 @@ export const social = [
   {
     name: "Linkedin",
     src: "/linkedin.jpg",
-    targetUrl:'https:linkedin.com'
+    targetUrl:'https://linkedin.com'
   },
   {
     name: "GitHub",
     src: "/gitwhite.png",
-    targetUrl:'https:github.com'
+    targetUrl:'https://github.com'
   },
  
   // {
