@@ -1,10 +1,8 @@
 import React from 'react';
 import {
     FaYoutube,
-    FaDiscord,
     FaGithub,
     FaInstagram,
-    FaTwitter,
     FaLinkedin
 } from "react-icons/fa";
 
@@ -18,11 +16,11 @@ const Footer = () => {
                     <div className="font-bold text-[16px] text-neon-purple p-1 bg-gradient-to-r from-purple-500 to-cyan-500 shadow-neon rounded-neon">Community</div>
                     <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaYoutube className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <a target='_blank' href='https://youtube.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>YouTube</a>
+                        <a target='_blank' href='https://youtube.com' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>YouTube</a>
                     </p>
                     <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaGithub className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <a target='_blank' href='https://github.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Github</a>
+                        <a target='_blank' href='https://github.com' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Github</a>
                     </p>
                 </div>
 
@@ -30,11 +28,11 @@ const Footer = () => {
                     <div className="font-bold text-[16px] text-neon-purple shadow-neon rounded-neon p-1 bg-gradient-to-r from-purple-500 to-cyan-500">Social Media</div>
                     <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaInstagram className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <a target='_blank' href='https://instagram.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Instagram</a>
+                        <a target='_blank' href='https://instagram.com' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Instagram</a>
                     </p>
                     <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaLinkedin className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <a target='_blank' href='https:linkedin.com' className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>LinkedIn</a>
+                        <a target='_blank' href='https:linkedin.com' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>LinkedIn</a>
                     </p>
                 </div>
 
