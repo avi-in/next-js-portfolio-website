@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-row gap-5">
           {social.map((smedia) => (
-            <a  key= {smedia.name} target='_blank' href={smedia.targetUrl} className='no-underline'>
+            <a  key= {smedia.name} target='_blank' href={smedia.targetUrl} rel="noopener noreferrer" className='no-underline'>
             <Image
               key={smedia.name}
               alt={smedia.name}
