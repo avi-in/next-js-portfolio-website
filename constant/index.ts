@@ -167,12 +167,12 @@ export const social = [
   {
     name: "Linkedin",
     src: "/linkedin.jpg",
-    targetUrl:'https:linkedin.com'
+    targetUrl:'https://linkedin.com'
   },
   {
     name: "GitHub",
     src: "/gitwhite.png",
-    targetUrl:'https:github.com'
+    targetUrl:'https://github.com'
   },
  
   // {
@@ -248,7 +248,7 @@ export const resumeFilePath = '/Vikash_kumar_Mishra_Resume.pdf';
 export const jsonObject = {
   name: "Vikash Mishra",
   jobProfile: ["Java FSD", "Backend Developer", "Web Developer"],
-  experienace: "3.9 yrs",
+  experienace: "4 yrs",
   education:"B.E(ECE) LNCT, Bhopal",
   company: "TCS, Pune",
   hobbies: ["Exploring New Things", "Traveling", "Code Composing"]
