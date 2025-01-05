@@ -20,7 +20,7 @@ const Footer = () => {
                     </p>
                     <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaGithub className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <a target='_blank' href='https://github.com' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Github</a>
+                        <a target='_blank' href='https://github.com/avi-in' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>Github</a>
                     </p>
                 </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
                     </p>
                     <p className="z-50 flex flex-row items-center my-[15px] hover:text-purple-500">
                         <FaLinkedin className="cursor-pointer" style={{ cursor: 'pointer' }} />
-                        <a target='_blank' href='https:linkedin.com' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>LinkedIn</a>
+                        <a target='_blank' href='https://linkedin.com/in/vk-mishra' rel="noopener noreferrer" className="text-[15px] ml-[6px] cursor-pointer" style={{ cursor: 'pointer' }}>LinkedIn</a>
                     </p>
                 </div>
 

@@ -13,7 +13,7 @@ const Skills = () => {
       <SkillText />
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {skillsData.map((s, index) => (
+        {frontEndSkills.map((s, index) => (
           <SkillDataProvider
             src={s.image}
             width={s.width}
@@ -26,7 +26,7 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {frontEndSkills.map((s, index) => (
+        {backendSkill.map((s, index) => (
           <SkillDataProvider
             src={s.image}
             width={s.width}
@@ -38,7 +38,7 @@ const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {backendSkill.map((s, index) => (
+        {skillsData .map((s, index) => (
           <SkillDataProvider
             src={s.image}
             width={s.width}
