@@ -1,91 +1,24 @@
 export const skillsData = [
   {
-    skillName: "HTML 5",
-    image: "/html.png",
-    width: 80,
-    height: 80,
-    competency: 97
-  },
-  {
-    skillName: "CSS 3",
-    image: "/css.png",
-    width: 80,
-    height: 80,
-    competency: 98
-  },
-  {
-    skillName: "JAVA SCRIPT",
-    image: "/js.png",
-    width: 80,
-    height: 80,
-    competency: 87
-  },
-  {
-    skillName: "MATERIAL UI",
-    image: "/mui.png",
-    width: 80,
-    height: 80,
-    competency: 87
-  },
-  {
-    skillName: "NEXT JS",
-    image: "/next.png",
-    width: 80,
-    height: 80,
-    competency: 80
-  },
-  {
-    skillName: "REDUX ",
-    image: "/redux.png",
-    width: 80,
-    height: 80,
-    competency: 76
-  },
-  {
-    skillName: "MYSQL",
-    image: "/mysql.png",
+    skillName: "PRIME NG",
+    image: "/primeng.jpg",
     width: 80,
     height: 80,
     competency: 90
   },
-
   {
-    skillName: "GRAPHQL",
-    image: "/graphql.png",
-    width: 80,
-    height: 80,
-    competency: 70
-
-  },
-]
-export const frontEndSkills = [
-  {
-    skillName: "HTML 5",
-    image: "/html.png",
-    width: 80,
-    height: 80,
-    competency: 92
-  },
-  {
-    skillName: "CSS 3",
-    image: "/css.png",
-    width: 80,
-    height: 80,
-    competency: 97
-  },
-  {
-    skillName: "JAVA SCRIPT",
-    image: "/js.png",
-    width: 80,
-    height: 80,
-    competency: 95
-  },
-  {
-    skillName: "MATERIAL UI",
-    image: "/mui.png",
+    skillName: "RxJS",
+    image: "/rxjs.jpg",
     width: 80,
     height: 80,
     competency: 90
+  },
+  {
+    skillName: "CHART JS",
+    image: "/chartjs.svg",
+    width: 80,
+    height: 80,
+    competency: 85
   },
   {
     skillName: "REACT JS",
@@ -94,72 +27,132 @@ export const frontEndSkills = [
     height: 80,
     competency: 75
   },
+  
   {
-    skillName: "TAILWIND",
-    image: "/tailwind.png",
+    skillName: "REDUX ",
+    image: "/redux.png",
     width: 80,
     height: 80,
-    competency: 85
+    competency: 70
   },
-  {
-    skillName: "TYPE SCRIPT",
-    image: "/ts.png",
-    width: 80,
-    height: 80,
-    competency: 95
-  },
-  {
-    skillName: "FRAMER",
-    image: "/framer.png",
-    width: 80,
-    height: 80,
-    competency: 30
-  }
-];
 
-export const backendSkill = [
-  {
-    skillName: "NODE JS",
-    image: "/node-js.png",
-    width: 80,
-    height: 80,
-    competency: 55
-  },
-  {
-    skillName: "MYSQL",
-    image: "/mysql.png",
-    width: 80,
-    height: 80,
-    competency: 90
-  },
   {
     skillName: "GIT",
     image: "/gitwhite.png",
     width: 80,
     height: 80,
+    competency: 85
+  }
+]
+export const frontEndSkills = [
+  {
+    skillName: "HTML 5",
+    image: "/html.png",
+    width: 80,
+    height: 80,
     competency: 90
+  },
+  {
+    skillName: "CSS 3",
+    image: "/css.png",
+    width: 80,
+    height: 80,
+    competency: 90
+  },
+  {
+    skillName: "JAVA SCRIPT",
+    image: "/js.png",
+    width: 80,
+    height: 80,
+    competency: 90
+  },
+  {
+    skillName: "ANGULAR",
+    image: "/angular.jpg",
+    width: 110,
+    height: 110,
+    competency: 95
   },
   {
     skillName: "NEXT JS",
     image: "/next.png",
     width: 80,
     height: 80,
+    competency: 75
+  },
+  {
+    skillName: "MATERIAL UI",
+    image: "/mui.png",
+    width: 80,
+    height: 80,
+    competency: 80
+  },
+  {
+    skillName: "BOOTSTRAP 5",
+    image: "/bootstrap.png",
+    width: 80,
+    height: 80,
+    competency: 95
+  },
+  {
+    skillName: "TAILWIND CSS",
+    image: "/tailwind.png",
+    width: 80,
+    height: 80,
+    competency: 85
+  }
+];
+
+export const backendSkill = [
+  {
+    skillName: "JAVA",
+    image: "/java.jpg",
+    width: 80,
+    height: 80,
+    competency: 90
+  },
+  {
+    skillName: "Advance Java",
+    image: "/j2ee.jpg",
+    width: 80,
+    height: 80,
+    competency: 75
+  },
+  {
+    skillName: "SPRING",
+    image: "/spring.png",
+    width: 80,
+    height: 80,
+    competency: 85
+  },
+  {
+    skillName: "Spring boot",
+    image: "/spring-boot.jpg",
+    width: 80,
+    height: 80,
+    competency: 95
+  },
+  {
+    skillName: "MICROSERVICES",
+    image: "/microservice.jpg",
+    width: 80,
+    height: 80,
+    competency: 80
+  },
+  {
+    skillName: "MYSQL",
+    image: "/mysql.jpg",
+    width: 80,
+    height: 80,
+    competency: 90
+  },
+  {
+    skillName: "SWAGER",
+    image: "/swager.png",
+    width: 85,
+    height: 85,
     competency: 70
-  },
-  {
-    skillName: "React Query",
-    image: "/reactquery.png",
-    width: 80,
-    height: 80,
-    competency: 65
-  },
-  {
-    skillName: "REACT NATIVE",
-    image: "/ReactNative .png",
-    width: 80,
-    height: 80,
-    competency: 55
-  },
+  }
 
 ]
 
@@ -167,41 +160,37 @@ export const social = [
   {
     name: "Linkedin",
     src: "/linkedin.jpg",
-    targetUrl:'https://linkedin.com'
+    targetUrl:'https://linkedin.com/in/vk-mishra'
   },
   {
     name: "GitHub",
     src: "/gitwhite.png",
-    targetUrl:'https://github.com'
-  },
- 
-  // {
-  //   name: "facebook",
-  //   src: "/facebook.svg"
-  // }
+    targetUrl:'https://github.com/avi-in'
+  }
 ];
 
 export const otherSkills = [
   {
-    skillName: "Express Js",
-    image: "/express.png",
-    width: 125,
-    height: 125,
-    competency: 50
-  },
-  {
     skillName: "Docker",
-    image: "/docker.webp",
-    width: 145,
-    height: 145,
+    image: "/docker.png",
+    width: 115,
+    height: 115,
     competency: 60
   },
   {
-    skillName: "FIREBASE",
-    image: "/firebase.png",
-    width: 125,
-    height: 125,
-    competency: 45
+    skillName: "KUBERNETES",
+    image: "/kubernetes.png",
+    width: 80,
+    height: 80,
+    competency: 50
+  },
+
+  {
+    skillName: "POSTMAN",
+    image: "/postman.jpg",
+    width: 80,
+    height: 80,
+    competency: 90
   }
 ];
 
