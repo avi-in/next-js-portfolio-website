@@ -13,7 +13,7 @@ const DetailsComponents = () => {
       <motion.div className="flex-1 md:mt-24 p-6" variants={slideInFromLeft(0.8)}>
         <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-purple-600">Welcome to My Portfolio</h1>
         <p className="mb-4 text-left sm:text-justify md:text-justify lg:text-left xl:text-left">
-          Hi, I am a web developer with experience in creating visually appealing and responsive websites. I specialize in Java, JavaScript, and full-stack development.
+          Hi, I am a Java Full-Stack Developer with experience in creating visually appealing and responsive websites. I specialize in Java, JavaScript, and full-stack development.
         </p>
         <p className="text-left sm:text-justify md:text-justify lg:text-left xl:text-left">
           Here you can find my projects, skills, and contact information. Feel free to explore and reach out if you have any questions or opportunities.

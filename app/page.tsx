@@ -1,9 +1,9 @@
 import Hero from '../components/main/Hero';
 import Skills from "@/components/main/Skills";
 import Projects from "@/components/main/Projects";
-import Testimonial from "@/components/main/Testimonial";
 import DetailsComponents from '@/components/main/DetailsComponents';
 import Achievements from '@/components/main/Achievements';
+import MyEdge from '@/components/main/MyEdge';
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
        <hr className='text-center mt-2 mx-10 border border-[white]' />
        <Achievements />
        <hr className='text-center mt-2 mx-10 border border-[purple]' />
-       <Testimonial/>
+       <MyEdge/>
      </div>
     </main>
   );

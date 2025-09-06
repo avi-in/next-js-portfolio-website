@@ -5,9 +5,9 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { testimonials } from '@/constant';
+import { myedge } from '@/constant';
 
-const Testimonial = () => {
+const MyEdge = () => {
     
       const settings = {
         dots: true,
@@ -22,9 +22,9 @@ const Testimonial = () => {
       return (
         <div className="bg-black py-16" id="testimonial">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="mb-4 text-2xl sm:text-3xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">Testimonials</h2>
+            <h2 className="mb-4 text-2xl sm:text-3xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">How I Add Value</h2>
             <Slider {...settings}>
-              {testimonials.map((testimonial, index) => (
+              {myedge.map((edge, index) => (
                 <motion.div
                   key={index}
                   className="flex justify-center p-6 rounded-lg border border-[#6929ea] z-[1000]"
@@ -33,14 +33,14 @@ const Testimonial = () => {
                 >
                   <Image
                     className="h-16 w-16 rounded-full mx-auto"
-                    src={testimonial.image}
-                    alt={testimonial.name}
+                    src={edge.image}
+                    alt={edge.roleArea}
                     width={200}
                     height={200}
                   />
-                  <h3 className="mt-4 text-xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">{testimonial.name}</h3>
-                  <p className="mt-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">{testimonial.role}</p>
-                  <p className="mx-auto max-w-lg mt-4 text-center text-gray-300 shadow-purple-500/50">{testimonial.content}</p>
+                  <h3 className="mt-4 text-xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600">{edge.roleArea}</h3>
+                  <p className="mt-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-blue-500 ">{edge.roleAction}</p>
+                  <p className="mx-auto max-w-lg mt-4 text-center text-gray-300 shadow-purple-500/50">{edge.content}</p>
                 </motion.div>
               ))}
             </Slider>
@@ -49,4 +49,4 @@ const Testimonial = () => {
       );
     };
     
-    export default Testimonial;
+    export default MyEdge;
