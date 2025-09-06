@@ -38,7 +38,7 @@ const Navbar = () => {
             <a href="#skills"  onClick={() => handleMenuClickActiveStatus('#skills')} className={`${isActive==='#skills' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' : ''} cursor-pointer`}>.skills( )</a> 
             <a href="#projects"  onClick={() => handleMenuClickActiveStatus('#projects')} className={`${isActive==='#projects' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' : ''} cursor-pointer`}>.projects( )</a>
             <a href="#achievements"  onClick={() => handleMenuClickActiveStatus('#achievements')} className={`${isActive==='#achievements' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' : ''} cursor-pointer`}>.achievements( )</a>
-            <a href="#testimonial"  onClick={() => handleMenuClickActiveStatus('#testimonial')} className={`${isActive==='#testimonial' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' : ''} cursor-pointer`}>.voice( )</a>
+            <a href="#testimonial"  onClick={() => handleMenuClickActiveStatus('#testimonial')} className={`${isActive==='#testimonial' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' : ''} cursor-pointer`}>.myEdge( )</a>
            
           </div>
         </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
           <a href="#skills" className="cursor-pointer py-2 text-gray-300" onClick={handleMenuClick}>skills( )</a> 
           <a href="#projects" className="cursor-pointer py-2 text-gray-300" onClick={handleMenuClick}>projects( )</a>
           <a href="#achievements" className="cursor-pointer py-2 text-gray-300" onClick={handleMenuClick}>achievements( )</a>
-          <a href="#testimonial" className="cursor-pointer py-2 text-gray-300" onClick={handleMenuClick}>testimonial( )</a> 
+          <a href="#testimonial" className="cursor-pointer py-2 text-gray-300" onClick={handleMenuClick}>myEdge( )</a> 
         </div>
       )}
     </div>
