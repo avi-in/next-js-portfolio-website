@@ -1,3 +1,5 @@
+import { calculateExperience } from "@/utils/gen-utility";
+
 export const skillsData = [
   {
     skillName: "PRIME NG",
@@ -206,38 +208,37 @@ export const achievements = [
   // { title: 'React Specialist', date: 'January 2023', description: 'Certified React Developer by Udemy', image: '/node-js.png' },
 
 ];
-export const testimonials = [
+export const myedge = [
   {
-    name: 'John Doe',
-    role: 'Developer, @XYZ Company',
-    content: 'This is an amazing product! Highly recommend it. \nThis is an amazing product! This is an amazing product! Highly recommend it. \nThis is an amazing product! Highly recommend it.This is an amazing product! Highly recommend it.',
+    roleArea: 'Java Back-End Excellence',
+    roleAction: 'Delivering Robust APIs',
+    content: 'Building robust, scalable APIs with Java, Spring Boot and MySQL/MongoDB, ensuring secure & high-performance applications',
     image: "/node-js.png",
     width: 80,
     height: 80,
   },
   {
-    name: 'Jane Smith',
-    role: 'Senior Developer, @XYG',
-    content: 'Fantastic service and support. Five stars! This is an amazing product! Highly recommend it.',
+    roleArea: 'Front-End Mastery',
+    roleAction: 'Intutive UIs',
+    content: 'Crafting intuitive, responsive UIs with modern frameworks for seamless user experiences',
     image: "/node-js.png",
     width: 80,
     height: 80,
   },
   {
-    name: 'Jane San',
-    role: 'Tech Lead, @ABC',
-    content: 'Fantastic service and support. Five stars! This is an amazing product! Highly recommend it.',
+    roleArea: 'Problem-Solving & Innovation',
+    roleAction: 'Creative Solutions',
+    content: 'Writing Clean code, optimizing performance, and solving complex challenges with creativity',
     image: "/node-js.png",
     width: 80,
     height: 80,
   },
 ];
-
 export const resumeFilePath = '/Vikash_kumar_Mishra_Resume.pdf';
 export const jsonObject = {
   name: "Vikash Mishra",
   jobProfile: ["Java FSD", "Backend Developer", "Web Developer"],
-  experienace: "4 yrs",
+  experienace: calculateExperience("11-01-2020"),
   education:"B.E(ECE) LNCT, Bhopal",
   company: "TCS, Pune",
   hobbies: ["Exploring New Things", "Traveling", "Code Composing"]
@@ -270,6 +271,10 @@ export const projectDetails = [
     imageUrl:''
   }          
 ];
+
+
+
+
 
 
 
