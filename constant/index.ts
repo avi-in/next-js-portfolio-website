@@ -213,25 +213,25 @@ export const myedge = [
     roleArea: 'Java Back-End Excellence',
     roleAction: 'Delivering Robust APIs',
     content: 'Building robust, scalable APIs with Java, Spring Boot and MySQL/MongoDB, ensuring secure & high-performance applications',
-    image: "/node-js.png",
-    width: 80,
-    height: 80,
+    image: "/spring-boot.jpg",
+    width: 200,
+    height: 200,
   },
   {
     roleArea: 'Front-End Mastery',
     roleAction: 'Intutive UIs',
     content: 'Crafting intuitive, responsive UIs with modern frameworks for seamless user experiences',
-    image: "/node-js.png",
-    width: 80,
-    height: 80,
+    image: "/next.png",
+    width: 200,
+    height: 200,
   },
   {
     roleArea: 'Problem-Solving & Innovation',
     roleAction: 'Creative Solutions',
     content: 'Writing Clean code, optimizing performance, and solving complex challenges with creativity',
-    image: "/node-js.png",
-    width: 80,
-    height: 80,
+    image: "/java.jpg",
+    width: 200,
+    height: 200,
   },
 ];
 export const resumeFilePath = '/Vikash_kumar_Mishra_Resume.pdf';
@@ -271,10 +271,6 @@ export const projectDetails = [
     imageUrl:''
   }          
 ];
-
-
-
-
 
 
 
